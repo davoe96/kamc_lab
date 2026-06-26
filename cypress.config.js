@@ -5,6 +5,7 @@ module.exports = defineConfig({
   allowCypressEnv: false,
 
   e2e: {
+    baseUrl: 'https://lab.kamc.io/',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
